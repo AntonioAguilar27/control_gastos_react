@@ -63,7 +63,7 @@ const ControlPresupuesto = ({gastos,presupuesto, setGastos, setPresupuesto, setI
 
         <div className="contenido-presupuesto">
             <button className="reset-app" type="button" onClick={handleResetApp}>
-                Resetar App
+                Resetear App
             </button>
             <p>
                 <span>Presupuesto: </span>{formatearCantidad(presupuesto)}
